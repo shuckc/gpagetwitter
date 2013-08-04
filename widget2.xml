@@ -7,7 +7,12 @@
     <Require feature="dynamic-height"/> 
     <Require feature="views"/>
   </ModulePrefs> 
-  <Content type="html" view="home, canvas"> 
+  <Content type="html" view="configuration">
+    <![CDATA[     
+    hi!
+    ]]> 
+  </Content>
+  <Content type="html" view="home, canvas">
     <![CDATA[     
     
     <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/YouthPursuits" data-theme="dark" data-chrome="nofooter" data-widget-id="364057291261095936">Tweets by @YouthPursuits</a>
