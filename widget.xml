@@ -2,8 +2,8 @@
 <Module> 
   <ModulePrefs title="Follow me on Twitter">
     title_url="https://www.twitter.com" 
-    width="250" 
-    height="400"> 
+    width="450" 
+    height="700"> 
     <Require feature="setprefs"/> 
     <Require feature="dynamic-height"/> 
     <Require feature="views"/>     
@@ -17,30 +17,6 @@
   <UserPref name="caption" display_name="caption" required="false"/> 
   <Content type="html" view="configuration" preferred_height="400"> 
     <![CDATA[ 
-    <style type="text/css"> 
-      .config-options { 
-        margin: 10px; 
-      } 
-      .label { 
-        font-weight: bold;
-      } 
-      .gray { 
-        color: #FFFFFF;
-      } 
-      .invalid-field { 
-        background-color: #4ED3FF;
-      } 
-      html { 
-        font-family:arial,sans-serif; 
-        font-size:0.81em; 
-        font-size-adjust:none; 
-        font-style:normal; 
-        font-variant:normal; 
-        font-weight:normal; 
-        line-height:1.5; 
-      } 
-      A:link, A:visited, A:active { text-decoration: none } 
-    </style> 
     <table class="config-options"> 
       <tr> 
         <td align="left" class="label">Display:</td> 
@@ -140,8 +116,7 @@
     ]]> 
   </Content> 
   <Content type="html" view="home, canvas"> 
-    <![CDATA[ 
-    
+    <![CDATA[     
     
     <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/YouthPursuits" data-widget-id="364057291261095936">Tweets by @YouthPursuits</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
